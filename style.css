@@ -1,0 +1,1761 @@
+html,body,a,h2,h1,h3
+{
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+h2
+{
+  text-align: center;
+  color: #ccc;
+  font-family: 'montserrat'; /* choose better */    /*i think this looks good*/
+  width: 80%;
+  margin: 20px auto;
+  font-size: 3em;
+}
+
+h5
+{
+    margin: 20px auto;
+  width: 80%;
+text-align: center;
+color: #aaa;
+font-family: 'montserrat';
+/* font family */
+
+}
+
+.top
+{
+  opacity: 1;
+  margin-top: 0px;
+  font-family: 'montserrat';
+  background-position: 0px 0px;
+  height: 400px;
+  background-size: cover;
+}
+
+
+.img1
+{
+    display: inline-block;
+}
+
+
+#bar
+{
+    background-color: #373737;
+    z-index: 200;
+    height: 90px;
+}
+
+#menubar
+{
+    color: #34495E; 
+    opacity: 1;
+    width: 900px;
+    font-family: 'montserrat';
+    font-size: 15px;
+    display: inline-block;
+}
+
+#logoimage img
+{
+  width: 150px;
+  height: 90px;
+}
+#menubar a {
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 35px 10px;
+
+}
+
+#menubar a:nth-child(1)
+{
+margin: 0px;
+}
+#menubar a:hover{
+    transition: 0.3s ease-in;
+    color: #48e0a4;
+}
+
+#menubar a:nth-child(7)
+{
+  display: none;
+}
+#sidebar
+{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+
+  display: none;
+  background: #373737;
+  overflow: hidden;
+}
+
+
+#sidebar a
+{  color: #ccc;
+  margin: 2px;
+  font-family: 'Montserrat';
+  text-decoration: none;  
+  display: block;
+  text-align: center;
+}
+
+#sidebar a:active
+{
+  background-color: #222;
+}
+
+.slideout
+{
+  max-height: 300px; 
+  transition: 0.3s all ease-in; 
+}
+.slidein
+{
+  max-height: 0px; 
+  transition: 0.3s all ease-in;
+}
+
+
+
+#content
+  {
+    padding-top: 0px;
+  }
+  #content>div
+  {
+    width: 80%;
+    
+  }
+
+/*faq page*/
+
+.topfaq
+{   
+    margin-top: 0px;
+    font-family: 'montserrat', sans-serif;
+    font-size: 25px;
+    margin-left: 70px;   
+}
+.faqcont1
+{
+    font-family: 'montserrat';
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-top: 50px;
+
+}
+
+.faqcont1 > div
+{
+  width: 80%;
+  margin: 0 auto;
+
+}
+.faqcont1 >div> div
+{
+    margin: 20px auto;
+
+}
+.faqcont1 table
+{
+    border-collapse: collapse;
+}
+#howtoreach
+{
+
+}
+#howtoreach>div
+{
+width: 40%;
+display: inline-block;
+vertical-align: middle;
+}
+.map
+{
+    display: inline-block;
+    
+    margin-left: 10%; 
+}
+.faqhead h1
+{
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    color: white;
+    top: 100px;
+    position: relative;
+    font-size: 90px;
+    text-shadow: 4px 4px #A9DFBF;
+}
+.faqhead
+{
+  height: 400px;
+}
+
+/* FAQ */
+
+#main
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#log
+{
+    width: 250px;
+    position: relative;
+    left: 40%;
+    top: 80px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  z-index: 22;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  transition: 0.3s ease-in;
+}
+
+.one
+{
+    padding: 50px;
+    position: relative;
+    top: 130px;
+    right: 60px;
+    background-color: grey;
+    background: rgba(0,0,0,0.6);
+    width: 70%;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.one p
+{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 20px;
+    text-align: justify;
+    color: #D8D99D;
+}
+#col1
+{
+    display: inline;
+    position: absolute;
+    right: 0px;
+    bottom: 120px;
+    width: 16%;
+    height: 50.6%;
+    opacity: 0.8;
+}
+#col1 img
+{
+    width: 215px;
+    height: 330px;
+}
+.two
+{
+    padding: 50px;
+    position: relative;
+    top: 170px;
+    left: 60px;
+    background-color: grey;
+    background: rgba(0,0,0,0.6);
+    width: 70%;
+    height: 230px;
+    margin: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.two p
+{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 20px;
+    text-align: justify;
+    color: #D8D99D;
+    position: relative;
+    top: 40px;
+}
+#col2
+{
+    display: inline;
+    position: absolute;
+    left: 0px;
+    top: 575px;
+    bottom: 120px;
+    width: 16%;
+    height: 50.6%;
+    opacity: 0.8;
+}
+#col2 img
+{
+    width: 215px;
+    height: 330px;
+}
+
+.images
+{
+    display: inline-block;
+}
+
+
+.headim
+{
+    background-image: url(images/b1.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.headim h1
+{
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    color: white;
+    top: 60px;
+    position: relative;
+    font-size: 70px;
+    text-shadow: 2px 2px #ff0000;
+}
+#note
+{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: 10px auto
+  }
+#note p
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.but
+{
+    text-align: center;
+    margin: 20px auto;
+}
+.button
+{
+    background-color: #AB2540;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 1px 1px #000000;
+}
+.button:hover
+{
+    background-color: #D74764;
+    transition: 0.2s ease-in;
+}
+#reg h2 a
+{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px;
+    color: #0CE874;
+    font-size: 30px;
+}
+i 
+{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right 
+{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+#abt
+{
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+#abt h3
+{
+    color: #00BCF2;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#abt p
+{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+    margin-right: 100px;
+}
+.top h1
+{
+  padding: 0px;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    color: white;
+    top: 100px;
+    position: relative;
+    font-size: 90px;
+    text-shadow: 4px 4px #AED6F1;
+}
+@media screen and (min-width: 601px) {
+  .top h1 {
+    font-size: 90px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .top h1{
+    font-size: 30px;
+  }
+}
+  #content
+  {
+    padding-top: 40px;
+        width: 80%;
+  }
+
+  .sticky
+  {
+    position: fixed;
+    top: 0px;
+  }
+
+  .sticky
+  {
+    position: fixed;
+    top: 0px;
+  }
+#note p{
+    width: 80%;
+    margin-left: 20%;
+}
+#abt p{
+    width: 100%;
+    ;
+    transform:translate(-10px,0px);
+}
+.link--arrowed{
+    width: 80%;
+    margin-bottom: 20px;
+}
+#abt h3{
+    text-align: left;
+
+}
+@media screen and (max-width: 480px){
+.top{
+height: 200px;
+}}
+@media screen and (max-width: 650px){
+.top{
+height: 220px;
+}}
+@media screen and (min-width: 601px) {
+  #content {
+    font-size: 17px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #content {
+    font-size: 12px;
+  }
+}
+ @media screen and (min-width: 601px) {
+  #down {
+    font-size: 30px;
+  }
+  .but
+  {
+    transform:translate(10px,-20px);
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #down {
+    font-size: 18px;
+    text-align: left;
+    margin-left: -30px;
+    transform:translate(-20px,0px);
+  }
+  .centered-container{
+    width: 400px;    
+    text-align: left;
+    margin-left: 10px;
+     transform: translate(-80px,-10px);
+  }
+  #abt p{
+    margin-left: 12%;
+  }
+}
+@media screen and (min-width: 601px) {
+  #abt h3 {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #abt h3 {
+    /*font-size: 18px;*/
+    font-size: 18px;
+    min-width: 100%;
+    text-align: left;
+    margin-left: 55px;
+  }
+}
+@media screen and (max-width: 480px){
+  .ruleshead{
+    height: 200px;
+  }
+  .resourcesimg2 img{
+    width: 50%;
+    height: 200px;
+  }
+  .resourcesimg3 img{
+    width: 80%;
+    height: 150px;
+    margin-left: 10px;
+  }
+  .resourcesimg4 img{
+    height: 200px;
+    width: 40%;
+  }
+}
+.imagesa{
+            display: flex;
+           
+
+        }
+        .imagesa > div{
+            flex:1;
+
+           
+        }
+        @media screen and (max-width: 600px){
+            .imagesa{
+                flex-direction:column;
+
+            }
+            .imagesa > div{
+                margin-left: 10%;
+            }
+        }
+
+        </style>
+
+
+
+
+        <style type="text/css">
+         @media screen and (min-width: 768px) {
+            #resultsimg img
+            {
+                width: 500px;
+                width: 90% !important;
+            }
+         }
+                  @media screen and (min-width: 601px) {
+  .images img {
+   width:  360px;
+    display: inline-block;
+    display: flex !important;  
+  }
+  .images div{
+    flex:1 !important;
+  }
+  .im1{
+    position: relative;
+    margin-left: -10px
+  }
+  .im3{
+    float: right;
+    margin-right: 3px;
+    position: relative;
+    margin-top: -440px;
+  }
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .images img {
+    width: 320px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-left: -30px;
+    padding-left: 0px !important;
+  }
+  .im3{
+    float:none;
+  }
+}
+@media screen and(max-width:800px){
+    .im3{
+        float:none;
+    }
+}
+@media screen and (min-width: 601px) {
+  .ruleshead h1 {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ruleshead h1{
+    font-size: 30px;
+  }
+  li{
+    width: 100%;
+    margin-left:-80px; 
+    text-align: left;
+  }
+}
+#benifits
+{
+  display: flex;
+  flex-direction: row;
+  background: blue; /* choose color */
+justify-content: space-around;
+padding: 30px;
+
+}
+.benifit
+{
+  flex-basis: 30%;
+}
+.benifit-image
+{
+  margin: 0px auto;
+  text-align: center;
+}
+.benifit-image img
+{
+  width: 80%;
+}
+.benifit-text h4
+{
+  text-align: center;
+  font-size: 20px;
+}
+ 
+
+#down
+{ 
+    margin-left: 100px;
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.centered-container 
+{
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.link 
+{
+    color: #0CE874;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 180px;
+}
+
+.link--arrowed
+{
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+
+}
+.link--arrowed .arrow-icon 
+{
+  position: relative;
+  top: -1px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  vertical-align: middle;
+  transform: rotate(90deg);
+}
+
+.link--arrowed .arrow-icon--circle 
+{
+  -webkit-transition: stroke-dashoffset .3s ease;
+  transition: stroke-dashoffset .3s ease;
+  stroke-dasharray: 95;
+  stroke-dashoffset: 95;
+}
+
+.link--arrowed:hover .arrow-icon 
+{
+  -webkit-transform: translate3d(5px, 0, 0);
+          transform: translate3d(5px, 0, 0);
+          transform: rotate(90deg);
+}
+
+.link--arrowed:hover .arrow-icon--circle 
+{
+  stroke-dashoffset: 0;
+}
+@media screen and (max-width: 600px) {
+  .faqhead h1{
+    font-size: 30px;
+  }
+  #howtoreach>div{
+    width: 80%;
+  }
+}
+          <style type="text/css">
+@media screen and (max-width: 480px){
+.faqhead{
+height: 200px;
+}}
+@media screen and (max-width: 650px){
+.faqhead{
+height: 220px;
+}}
+@media screen and (max-width: 480px){
+.faqhead{
+height: 200px;
+}}
+@media screen and (max-width: 650px){
+.faqhead{
+height: 220px;
+}}
+#socailm
+       {
+        padding: 30px;
+        min-height: 50px;
+        display: block;
+        }
+        #socailm a{
+          min-height: 20px;
+          min-width: 20px;
+          display: inline-block;
+          }
+          #iconsins{
+            margin-left: 35%;}
+@media screen and (max-width: 600px) {
+  #inconsins{
+    margin-left:20%;
+    
+  }
+}
+
+.him
+{
+    background-image: url(images/bg.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.him h1
+{
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    color: white;
+    top: 70px;
+    position: relative;
+    font-size: 70px;
+    text-shadow: 2px 2px darkblue;
+}
+#resul img
+{
+    left: 7.5%;
+    width: 1200px;
+    border: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+.im1 
+{
+  position: relative;
+  width: 700px;
+  display: inline-block;
+  max-width: 300px;
+  padding: 55px;
+}
+.im2 
+{
+  position: relative;
+  width: 700px;
+  display: inline-block;
+  max-width: 300px;
+   padding: 55px;
+}
+.im3 
+{
+  position: relative;
+  display: inline-block;
+  width: 700px;
+  max-width: 300px;
+  padding: 55px;
+}
+
+.overlay {
+  position: relative; 
+  bottom: 70px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 340px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+.im1:hover .overlay
+ {
+  opacity: 1;
+}
+.im2:hover .overlay 
+{
+  opacity: 1;
+}
+.im3:hover .overlay 
+{
+  opacity: 1;
+}
+.fo
+{
+  background-image: url(images/foot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  bottom: 0px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-top: ;
+}
+.fo #con p
+{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+}
+.fo #con h3
+{
+  color: #00BCF2;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 100px;
+  font-size: 25px;
+  margin-top: 100px;
+}
+.fo #con
+{
+  position: relative;
+  top: 35px;
+}
+.rest table 
+{
+    border-collapse: collapse;
+    width: 80%;
+    position: relative;
+    margin: 100px;
+}
+
+.rest th, td 
+{
+    text-align: center;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.rest tr:nth-child(even)
+{
+  background-color: #f2f2f2
+}
+.rest th 
+{
+    background-color: #00A0EE;
+    color: white;
+}
+
+.ruleshead h1
+{
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+    color: white;
+    top: 100px;
+    position: relative;
+    font-size: 90px;
+    text-shadow: 4px 4px #4F4F4F;
+}
+.ruleshead
+{
+  height: 400px;
+}
+.rulescont
+{
+    font-family: 'montserrat';
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    margin-top: 50px;
+
+}
+
+
+    .footer
+    {
+      background-color: #aaa;
+      text-align: center; 
+      margin-top: 40px;
+    }
+
+    #footerwrapper
+    {
+      margin: 0px auto;
+      padding-top: 30px;
+      width: 90%;
+    }
+    #footerwrapper > div
+    {
+      margin: 10px auto;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    }
+    #footerwrapper >div >div
+    {   color: #eee;
+      display: inline-block;
+    }
+    /* Can't understand why this is here. Remove the comments if there is an issue. If everything is working let it be
+/*    #footerwrapper > div> div>div
+    {
+      margin: 20px 0px;
+      
+    } */
+    #footerwrapper p
+    {
+      margin: 5px;
+      font-family: 'Open Sans';
+      font-size: 12px;
+      color: #000;
+    }
+
+
+    #organization>div
+    {
+      display: block;
+      width: 100%;
+    }
+    .large-logo
+    {
+width: 150px;
+    }
+    .small-logo
+    {
+width: 60px;
+    }
+    .medium-logo
+    {
+width: 100px;
+    }
+
+    #organization h4
+    {
+      margin: 5px;
+      font-family: 'Open Sans';
+      color: #000;
+    }
+    #organization>div>div
+    {
+      display: inline-block;
+      widows: 50%;
+      text-align: center;
+    }  
+
+    #supporters>div
+    {
+      margin:0px 15px;
+    }
+
+
+@media only screen and (max-width: 992px)
+{
+
+h2
+{
+  font-size: 32px;
+}
+.top
+{
+height: 300px;
+}
+#bar
+{
+  height: 60px;
+}
+#menubar
+{
+  width: 700px;
+}
+#logoimage img
+{
+  width: 70px;
+  height: 60px;
+}
+
+#menubar a
+{
+  margin: 20px 10px; 
+  font-size: 16px;
+}
+
+.paratext
+{
+ margin: 0;
+  font-size: 16px;
+}
+#sponsorspara
+{
+  font-size: 16px;
+}
+#sponsors hr
+{
+margin: 20px auto; 
+}
+    #sponsors img
+    {
+      height: 160px;
+      width: 160px;
+    }
+#footerwrapper
+{
+  width: auto;
+
+}
+#footerwrapper>div:nth-child(1)
+{
+width: 30%;
+}
+#footwrapper>div:nth-child(2)
+{
+  width: 25%;
+}
+
+    .large-logo
+    {
+width: 130px;
+    }
+    .small-logo
+    {
+width: 40px;
+    }
+    .medium-logo
+    {
+width: 80px;
+    }
+    #organization
+    {
+      padding: 20px 0px;
+    }
+    #organization>div>div
+    {
+      display: block;
+    }
+    #countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+
+@media screen and (max-width: 768px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+.top
+{
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-color: #181849;
+}
+    #footerwrapper >div >div
+    {   color: #eee;
+      display: block;
+      text-align: center;
+    }
+#footerwrapper > div
+    {
+      display: block;
+      width: auto;
+    }
+  #footerwrapper
+    {
+        height: 1400px;
+
+    }
+    #contact
+    {
+    position: static;
+    width: auto;
+    display: block;
+        font-size: 15px;
+        text-align: center;
+    }
+    #contact img
+    {
+        width: 50px;
+        height: 50px;
+    }
+    #contact #number p
+    {
+        font-size: 15px;
+    }
+    #email
+    {
+    position: static;
+    text-align: center;
+    margin-bottom: 30%;
+    }
+    #email p
+    {
+      font-size: 15px;
+      text-align: center;
+    }
+    #number
+    {
+      position: static;
+      text-align: center;
+      margin-bottom: 30%;
+    }
+    #contact #email p
+    {
+        font-size: 15px;
+    }
+    #fb
+    {
+    position: static;
+    width: auto;
+    display: block;
+    }
+    #organization
+    {
+    position: static;
+    width: auto;
+    display: block;
+    text-align: center;
+    }
+    #organizers
+    {
+      position: static;
+      text-align: center;
+    }
+    #organizers img
+    {
+        width: 200px;
+    }
+    #supporters>div
+    {
+      margin: 0px;
+      padding: 0px;
+    }
+    #supporters
+    {
+      position: static;
+      text-align: center;
+    }
+    #supporters h4
+    {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #supporters img
+    {
+        width: 150px;
+        padding: 0px;
+        text-align: center;
+    }
+    #supporters #msl
+    {
+        width: 150px;
+        margin-bottom: 20px;
+        position: static; 
+    }
+    #supporters #mahi
+    {
+        width: 160px;
+        margin-bottom: 20px; 
+    }
+}
+@media screen and (max-width: 680px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+iframe
+{
+  width: 200px;
+}
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+@media screen and (max-width: 650px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+.top
+{
+  height: 220px;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+iframe
+{
+  width: 200px;
+}
+#organizers img
+{
+  width: 50%
+}
+#supporters img
+{
+  width: 50%
+}
+#footerwrapper > div p
+{
+  font-size: 10px;
+}
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+@media screen and (max-width: 550px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+#organizers img
+{
+  width: 50%
+}
+#supporters img
+{
+  width: 50%
+}
+#footerwrapper > div p
+{
+  font-size: 10px;
+}
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+@media screen and (max-width: 480px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+.top
+{
+  height: 200px;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+#organizers img
+{
+  width: 100%
+}
+#supporters img
+{
+  width: 50%
+}
+#footerwrapper > div p
+{
+  font-size: 9px;
+}
+#countdates
+{
+  font-size: 15px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+/*pop for the screen*/
+#website {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+.resourcesimg1
+{
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.resourcesimg1 img
+{
+  width: 40%;
+  height:25%;
+  cursor: pointer;
+}
+.resourcesimg2
+{
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.resourcesimg2 img
+{
+  width: 50%;
+  height:400px;
+  cursor: pointer;
+}
+.resourcesimg3
+{
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.resourcesimg3 img
+{
+  width: 90%;
+  height:200px;
+  cursor: pointer;
+}
+.resourcesimg4
+{
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.resourcesimg4 img
+{
+  width: 40%;
+  height:500px;
+  cursor: pointer;
+}
+@media screen and (min-width: 601px) {
+  .top {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .top{
+    font-size: 30px;
+  }
+}
+#icons
+{
+  display: inline-block;
+  position: relative; 
+}
+#icons > img
+{
+  width: auto;
+}
+
+  #icon-bar {
+    display: none;
+    width: 60px;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  width: 40px;
+  position: relative;
+  right: 20px;
+  transition: all 0.2s ease-in;
+}
+
+#icon-bar a:hover {
+
+  right: 0px;
+  transition: all 0.2s ease-in;
+}
+
+#icon-bar span:hover
+{
+  cursor: pointer;
+}
+#icons{
+  display: inline-block;
+  transition:all 0.2 ease-in;
+}
+.moveout
+{
+    transition: all 0.3s ease-in;
+  right: 60px;
+
+}
+.movein
+{
+  transition: all 0.3s ease-in;
+
+  right: 0px;
+}
+/*.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}*/
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+ .sticky
+    {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+    }
+
+
+

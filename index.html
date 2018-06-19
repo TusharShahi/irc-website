@@ -1,0 +1,457 @@
+<html>
+<!--why sponsor page has the blue-tab making it responsive is a  problem-->
+<!--adding rescources to menubar creates blackbar on homepage-->
+<!--adding responsive menubar pages-->
+<head>
+	
+	<title>Indian Rover Challenge | Home</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="newhome.css">
+	 <link rel="stylesheet" type="text/css" href="changeimage.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- add meta tags here. take inspiration from online websites -->
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- you can add multiple fonts together by using | opertor -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Anton|Open+Sans|Roboto" rel="stylesheet">
+	
+	<link rel="icon"  href="images/fav.jpg">
+	<script type="text/javascript" src="loader.js"></script>
+</head>
+
+
+
+<body onload = "startTimer()"> 
+
+<!-- insert loader here -->
+<div id="loader">
+	<style type="text/css">
+	#loader
+	{
+		display: none;
+	}
+
+	</style>
+
+
+       <div class="rover" ><img id="img" src="images/roverer.jpg.jpg" height="90 " width="90" style="border-radius:50px">
+       </div>
+  <br><br><br>  
+  <!--<div class="wheel1"><img src="asset2.png" height="45" width="45"></div>
+  <div class="wheel2"><img src="asset2.png" heigth="45" width="45"></div>
+  <div class="bar"></div>-->
+  <!--<div id="circlea"><img src="circle.png" height="150" width="145"></div>
+  <div id="circleb"><img src="circle.png"  height="180" width="180"></div>-->
+   <div id="circlea"><img src="images/gol.png" height="147" width="145"></div>
+  <div id="circleb"><img src="images/gol.png"  height="180" width="180"></div>
+
+  <div id="myProgress">
+    <div id="myBar"></div>
+</div>
+</div>
+
+
+
+<!--website starts here-->
+<div id="website" onload="myFunction()">
+	<div class="top">
+
+	
+	</div>
+
+	<div id="bar">
+	
+		<div id="menubar">			
+			<a href="index.html"><div id="logoimage"><img src="images/irclogo.png" right="0" width="300" height="100"></div></a>
+			<a href="res.html" >IRC 2018</a>
+			<a href="reg.html" >Registration</a>
+			<a href="fqu.html" >FAQ</a>
+			<a href="whysponsor.html">Support Us</a>
+			<a href="rules.html">Rules</a>
+			<!--difficulty in adding rescources page here 
+			<a href="resources.html" style:"margin-right:30%;">Resources</a> -->
+
+
+			<a style="margin: 15px;"><div id="buttonimage"><img src="images/sidebar.png" onclick="javascript:slidein();"></div></a>
+			
+		</div>
+
+		<div id="sidebar" class="slidein">
+
+			<a href="res.html" >IRC 2018</a>
+			<a href="reg.html" >Registration</a>
+			<a href="fqu.html" >FAQ</a>
+			<a href="whysponsor.html">Support Us</a>
+			<a href="rules.html">Rules</a>
+      <a href="rescources.html">Rescources</a>
+      
+       <div id="socailm">
+       
+<div id="iconsins" class="movein">
+          <a href="https://www.facebook.com/indianroverchallenge/" class="facebook"><i class="fa fa-facebook"></i></a> 
+          <a href="#" class="google"><i class="fa fa-google"></i></a> 
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+        </div>
+        </div>
+
+		</div>
+
+	</div>
+	<!-- display icon-bar at same time as top button --> 
+		<div id="icon-bar" style="text-align: center;">
+  			<div id="icons" class="movein">
+  				<a href="https://www.facebook.com/indianroverchallenge/" class="facebook"><i class="fa fa-facebook"></i></a> 
+  				<a href="#" class="google"><i class="fa fa-google"></i></a> 
+  				<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  				<a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  			</div>
+  			<span style="padding: 5px 5px; color: #ccc; display: block;" onclick="iconfunction();" id="icon-arrow">&#9664;</span>
+		
+		</div>
+
+
+
+	<div id="content"> <!-- all the content below the navbar --> 
+	
+		<div class="para1">
+	
+			<div class="paratext"><p>The Indian Rover Challenge was started in 2018, it is the first ever robotics and space exploration based competition to ignite and encourage the spirit of innovation amongst young engineers set on a quest to know about our ever expanding, unimaginable and mystic universe. The competition facilitates a chance to deepen their knowledge in one of the most interesting fields as they broaden their horizons and get hands-on experience on space technology by observing the struggle of robots on a simulated planet. The ideas proposed here are not just limited to this challenge, they can be extended in various ways because the birth of the space age has spurred on a plethora of new ideas and ground-breaking technologies that are used in day-to-day living.</p></div>
+			<style type="text/css">
+                  
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+}
+	 
+			</style>
+
+		</div>
+
+		<div class="para2">
+		
+			<div class="paratext"><p>IRC 2019 will be held from <span style="color: #212121; font-weight: bold;">9th January 2019 to 12th January 2019</span>. The competition is presented by Manipal Academy of Higher Education and Mahindra & Mahindra. It will be held at Manipal Institute of Technology, Manipal.</p></div>
+				<style type="text/css">
+                  
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+	 
+			</style>
+		</div>
+
+		<!-- Different rounds -->
+
+		
+
+		<div id="steps" style="margin-top: 60px; margin-bottom: 40px;">
+			
+			<div class="contentimg">
+				<div>
+					<!--graphoc not that good kuch kar skate hai yaha-->
+					<img src="images/book1.png" height="150" width="150">
+					<h3>Registration</h3>
+
+				</div>
+
+				<div>
+					<img src="images/videof.png" height="150" width="150">
+					<h3>SAR</h3>
+
+				</div>
+
+				<div>
+					<img src="images/terrain.png" height="150" width="150">
+					<h3>Competition</h3>
+
+				</div>
+
+				<div>
+					<img src="images/trophy.png" height="150" width="150">
+					<h3>Win It</h3>
+
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- white box ends -->
+
+		<!-- Countdown -->
+	<div id="countdown"><!--<div id="dates">Mission Starts in....</div> -->
+	    <div id="countdates"><b>9th to 12th January 2019 </b>, countdown is on....</div>
+	    		<style type="text/css">
+               
+	 
+			</style>
+		<div id="clockdiv">
+	
+			<div class="days">
+		
+			<span class="days"></span>
+			<div class="smalltext">Days</div>
+			
+			</div>
+			<span>:</span>
+
+			
+			<div class="hours">
+			    <span class="hours"></span>
+			    <div class="smalltext">Hours</div>
+			
+			</div>
+		  	
+			<span>:</span>
+		  	<div class="minutes">
+			    <span class="minutes"></span>
+			    <div class="smalltext">Minutes</div>
+			
+			</div>
+			<span>:</span>
+
+		  <div class="seconds">
+		    <span class="seconds"></span>
+		    <div class="smalltext">Seconds</div>
+		  </div>
+		</div>
+		</div>
+
+		<!-- sponsors -->
+		<div id="sponsors">
+			
+			<h2>Our Sponsors</h2>
+		
+			<hr>
+
+
+
+			<div id="sponsorpara">
+
+				<h4>This Would Not be possible without the support of our sponsors. The Sponosors support have allowed us to  bring to you tthe second Edition of the Indian Rover Challenge, part of the rover challenge series. </h4>
+
+			</div>
+
+			<!-- images size has to be fixed -->
+			<div id="">
+
+
+
+				<img src="images/mahindralogo.png">
+
+
+				<img src="images/mahindralogo.png">
+
+				<img src="images/mahindralogo.png">
+
+				<img src="images/mahindralogo.png">
+
+				<img src="images/mahindralogo.png">
+
+			</div>
+
+			<div id="">
+
+
+
+				<img src="images/mahindralogo.png">
+				<img src="images/mahindralogo.png">
+				<img src="images/mahindralogo.png">
+			</div>
+
+
+
+
+		</div>
+
+		<!-- another white box -->
+		<div id="roverchallengeseries">
+
+			<div>
+		
+				<div class="paratext">
+
+					<p>IRC, Indian Rover Challenge is now a part of the rover challenge series, powered by Mars Society. First edition of IRC was hosted by Vellore Institute of Technology, Tamil Nadu in January 2018. We are pleased to inform you that the second edition of IRC will be hosted by Manipal Academy of Higher Education.
+Rover Challenge Series includes <a href="urc.marssociety.org">University Rover Challenge</a>(URC), <a href="http://roverchallenge.eu/">European Rover Challenge Series</a>(ERC), UK University Rover Challenge(UKURC) and <a href="https://circ.cstag.ca/">Canadian International Rover Challenge</a>(CIRC). The aim of Rover Challenge Series is to challenge teams to design and build a rover that would be use of early explorers on mars. The students are encouraged to develop skills in robotics, improve state of art in rovers and work in multi-disciplinary teams.
+					</p><style type="text/css">
+                  
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+	 
+			</style>
+
+				</div>
+
+				<button class="button">Know more</button>
+
+
+
+			</div>
+
+
+
+		</div>
+
+		<div id="subscription">
+
+
+			<div>
+
+
+				<div id="asia">
+
+					<p>Indian Rover Challenge takes pride in being the only of its kind competition in Asia. Stay updated with the latest news regarding IRC by joining our mailer list</p><style type="text/css">
+                  @media screen and (min-width: 601px) {
+ #asia {
+    font-size: 18px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #asia {
+    font-size: 12px;
+  }
+}
+	 
+			</style>
+
+					<form>
+
+						<input type="email" id="emailfield"></input>
+
+						<input type="submit" id="submitbutton" class="button">
+
+					</form>
+				</div>
+
+			</div>
+
+
+		</div>
+
+		<!-- suscribe section -->
+		<!-- insert form with one input field - email and one submit button -->
+
+		<div>
+
+
+
+
+		</div>
+		<!--footer-->
+		
+		
+ <div class="footer">
+
+            <div id="footerwrapper">
+                
+                <div id="contact" style="width: 375px">
+                    
+                        <div id="number">
+                            <img src ="images/mobile-phone.png" height="30px" width="30px" >
+                            <p>Sagar Dhaka</p> 
+                            <p>+91 - </p>
+                            <p>Shantam Shorewala</p>
+                            <p>+91</p>
+                            <p>indianroverchallenge@gmail.com</p>
+                        </div>
+
+                        <div id="email">
+                            <img src="images/placeholder.png" height="30px" width="30px">
+                            <p>Mars Rover Manipal,MAHE Automobile Workshop,MIT, Manipal, India - 576104</p>
+
+                        </div>
+                    
+                    
+                </div>
+
+                <div id="fb">
+
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FIndianRoverChallenge&tabs=timeline&width=240&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=187120771934670" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" id="facebook_iframe" class="facebook_iframe"></iframe> 
+
+                </div>
+
+                <div  id="organization">
+
+                    <div id="supporters">
+
+                        <div style="margin-right: 5px;">               
+                            <h4>Backed By</h4>
+                            <img src="images/marssociety.png" id="msl" class='large-logo' style="padding-bottom: 10px;">
+                        </div>
+
+                        <div>
+                            <h4>Powered By</h4>
+                            <img src="images/mahindralogo2.png" id="mahi" class='medium-logo' style="padding-bottom: 10px;" >
+                        </div>
+
+                        
+                    </div>
+
+                    <div id="organizers">
+                        <div>               
+                            <img src="images/mahe.png" class='large-logo' style="padding-bottom: 10px;  margin-right: 30px;">
+                        </div>
+                        <div>               
+                                <img src="images/logo.png" class='small-logo' style="margin: 0px;">
+                        </div>
+                    </div>
+
+                    <!--
+                    <div>
+                        <img src="images/mit.png" width="80" style="padding-bottom: 10px">
+                    </div>
+                    -->
+
+
+                </div>
+
+            </div>
+
+            <div>
+
+
+
+            </div>
+
+        </div>
+
+  
+
+
+
+
+
+			<!-- arrow to move up. Akshat I hope you can make the function that scrolls up onclick -->
+			<!-- insert image of an arrow here instead of the box -->
+			<div id="gototop" class='arrow' onclick="topFunction()">
+
+             <img src="images/up.png" height="50" width="50" style="padding:5px">
+			</div>
+
+		</div>
+	
+
+	<script type="text/javascript" src="index.js"></script>
+	<!-- not  working due to 2 document ready function-->
+	<script type="text/javascript">
+   $("#menubar").onload(function(){
+   	$("#gototop").click(function(event){
+   		event.preventDefault();
+   		$("html,body").animate({scrollTop:0},3000)
+   		return false;
+   	});
+   }
+   	);
+	</script>
+
+
+    
+</div>
+</body>
+<script type="text/javascript" src="mobilemenu.js"></script>
+<script type="text/javascript" src="loaderbody.js"></script>
+</html>

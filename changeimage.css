@@ -1,0 +1,217 @@
+  #loader{
+    /*background-color:#1A5276;*/
+   min-height: 1000px;
+   position: relative;
+   margin-top: -300px;
+   background-image: url(images/backy.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background: linear-gradient(90deg, #D7DBDD  , #BFC9CA, #2C3E50, #34495E );*/
+  /*  background: linear-gradient(90deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 20s ease infinite;
+    -moz-animation: Gradient 20s ease infinite;
+    animation: Gradient 20s ease infinite;
+  }
+
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }*/
+
+  }
+  .rover
+  {
+    margin-left: 45.3%;
+  position: absolute;
+    margin-top: 540px;
+    -webkit-animation:movement 3s infinite;
+   animation-direction:alternte;
+    
+  }
+  @-webkit-keyframes movement{
+    from{
+      -webkit-transform:rotateY(0deg);
+    }
+    to{
+      -webkit-transform:rotateY(5deg);
+    }
+  }
+  .wheel1
+  { position: fixed;
+   margin-left: 710px;
+   margin-top:-60px;
+    -webkit-animation:rotation 3s infinite linear;
+  }
+  .wheel2
+  {
+     position: fixed;
+   margin-left: 590px;
+   margin-top: 30px;
+   margin-top:-60px;
+    -webkit-animation:rotation 3s infinite linear;
+  }
+  /*.mars
+  {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    -webkit-animation:rotation 4s infinite linear;
+  }*/
+  @-webkit-keyframes rotation{
+    from {
+      -webkit-transform:rotateZ(0deg);   
+    }
+    to{
+      -webkit-transform:rotateZ(350deg);
+    }
+  }
+  /*.loader {
+    height: 4px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #ddd;
+    width:20%;
+    margin-left:40%;
+  }
+  .loader:before{
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: #2980b9;
+    animation: loading 2s linear infinite;
+  }
+
+  @keyframes loading {
+      from {left: -200px; width: 30%;}
+      50% {width: 30%;}
+      70% {width: 70%;}
+      80% { left: 50%;}
+      95% {left: 120%;}
+      to {left: 100%;}
+  }*/
+  /*.bar {
+    width: 100%;
+    margin-left: 38%;
+    margin-top:-19px;
+    height: 15px;
+    border: 1px solid #2980b9;
+    border-radius: 3px;
+    background-image: 
+      repeating-linear-gradient(
+        45deg,
+        #CACFD2,
+       #D0D3D4,
+        #626567 11px,
+       #424949 10px,
+        #424949 20px /* determines size */
+        );
+  /*  background-size: 28px 28px;
+    animation: move .5s linear infinite;
+    width:25%;
+  }
+
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 28px 0;
+    }*/
+  }
+  #myProgress {
+  width: 40%;
+  background-color: #A93226;
+  margin-left:30%;
+  margin-top:47%;
+  width: 40%;
+}
+
+#myBar {
+  width: 10%;
+  height: 5px;
+  background-color: #A93226;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+/*#circlea{
+    -webkit-animation: rotation 2s infinite linear;
+  margin-left:43.5%;
+  position: relative;
+  margin-top:450px;
+}
+#circleb {
+    -webkit-animation: rotatio 2s infinite linear;
+  margin-left:42%;
+  position:absolute;
+  margin-top: -170px;
+  
+  
+}*/
+#circlea{
+    -webkit-animation: rotation 1.3s infinite linear;
+  margin-left:43.5%;
+  position: relative;
+  margin-top:450px;
+}
+#circleb {
+    -webkit-animation: rotatio 1.3s infinite linear;
+  margin-left:42.36%;
+  position:absolute;
+  margin-top: -163px;
+  
+  
+}
+
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotateX(0deg);
+    }
+    to {
+        -webkit-transform: rotateX(359deg);
+    }
+}
+@-webkit-keyframes rotatio {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(359deg);
+    }
+}

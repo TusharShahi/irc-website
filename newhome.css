@@ -1,0 +1,1398 @@
+/* ////// */
+/* NORMALIZATION */ 
+/* ////// */
+
+
+html,body,a,h2,h1,h3
+{
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+h2
+{
+  text-align: center;
+  color: #ccc;
+  font-family: 'montserrat'; /* choose better */    /*i think this looks good*/
+  width: 80%;
+  margin: 20px auto;
+  font-size: 3em;
+}
+
+h5
+{
+    margin: 20px auto;
+  width: 80%;
+text-align: center;
+color: #aaa;
+font-family: 'montserrat';
+/* font family */
+
+}
+
+/* ////// */
+/* NORMALIZATION ENDS */ 
+/* ////// */
+
+
+.top
+{
+  margin-top: 0px;
+  background-position: 0px 0px;
+  height: 400px;
+  background-size: cover;
+}
+
+
+/* ////// */
+/* MENU BAR */ 
+/* ////// */
+
+#bar
+{
+    background-color: #373737;
+    z-index: 200;
+    height: 90px;
+}
+   #myProgress {
+  width: 40%;
+  background-color: #ddd;
+  margin-left:33%;
+  margin-top:27px;
+  width: 31.5%;}
+
+  #socailm
+       {
+        padding: 30px;
+        min-height: 50px;
+        display: block;
+        }
+        #socailm a{
+          min-height: 20px;
+          min-width: 20px;
+          display: inline-block;
+          }
+          #iconsins{
+            margin-left: 37%;}
+
+@media screen and (max-width: 600px) {
+  #inconsins{
+    margin-left:20%;}}
+
+@media screen and (min-width: 601px) {
+  .para1 p {
+    font-size: 18px;
+  }}
+
+@media screen and (max-width: 600px) {
+  .para1 p { font-size: 12px;
+  }}
+
+@media screen and (min-width: 601px) {
+  .para2 p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .para2 p {
+    font-size: 12px;
+  }
+  .contentimg img
+  {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+ @media screen and (min-width: 601px) {
+  #countdates{
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  #countdates {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .paratext p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .paratext p {
+    font-size: 12px;
+  }
+}
+#menubar
+{
+    color: #34495E; 
+    opacity: 1;
+    width: 900px;
+    font-family: 'montserrat';
+    font-size: 15px;
+    display: inline-block;
+}
+
+#logoimage img
+{
+  width: 150px;
+  height: 90px;
+}
+#menubar a {
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 35px 10px;
+
+}
+
+#menubar a:nth-child(1)
+{
+margin: 0px;
+}
+#menubar a:hover{
+    transition: 0.3s ease-in;
+    color: #48e0a4;
+}
+
+#menubar a:nth-child(7)
+{
+  display: none;
+}
+#sidebar
+{
+
+  position: relative;
+  display: none;
+  background: #373737;
+  overflow: hidden;
+}
+
+
+#sidebar a
+{  color: #ccc;
+
+  font-family: 'Montserrat';
+  text-decoration: none;  
+  display: block;
+  text-align: center;
+}
+#sidebar a:active
+{
+  background-color: #222;
+}
+.slideout
+{
+  max-height: 300px; 
+  transition: 0.3s all ease-in; 
+}
+.slidein
+{
+  max-height: 0px; 
+  transition: 0.3s all ease-in;
+}
+
+
+/* ////// */
+/* MENU BAR ENDS */ 
+/* ////// */
+
+
+/* ////// */
+/* SOCIAL MEDIA ICONS */ 
+/* ////// */
+
+
+#icons
+{
+  display: inline-block;
+  position: relative; 
+}
+#icons > img
+{
+  width: auto;
+}
+
+  #icon-bar {
+    display: none;
+    width: 60px;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  width: 40px;
+  position: relative;
+  right: 20px;
+  transition: all 0.2s ease-in;
+}
+
+#icon-bar a:hover {
+
+  right: 0px;
+  transition: all 0.2s ease-in;
+}
+
+#icon-bar span:hover
+{
+  cursor: pointer;
+}
+#icons{
+  display: inline-block;
+  transition:all 0.2 ease-in;
+}
+.moveout
+{
+    transition: all 0.3s ease-in;
+  right: 60px;
+
+}
+.movein
+{
+  transition: all 0.3s ease-in;
+
+  right: 0px;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+
+
+/* ////// */
+/* SOCIAL MEDIA ICONS ENDS */ 
+/* ////// */
+
+
+/* ////// */
+/* COUNTDOWN */ 
+/* ////// */
+
+
+
+#countdown
+{
+   min-height: 200px;
+    background: #283747;
+    text-align: center;
+    background: #373737;
+    color: white;
+    font-size: 40px;
+    color: white;
+ 
+}
+#dates
+{
+padding: 30px;
+padding-top: 50px;
+
+}
+
+
+/* ////// */
+/* COUNTDOWN ENDS */ 
+/* ////// */
+
+#contact
+{
+  color: #00bcf2;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke: #840037;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: #BD0034;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: #BD0034;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke: #FDB731;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  position: relative;
+  margin-top: 75px;
+  padding-bottom: 30px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 0px;
+  font-size: 16px;
+  color: white;
+}
+
+.cover
+{
+height: 100%;
+  font-weight: 800;
+    background: url(images/bg6.jpg);
+  font-family: Arial;   
+}
+.cover svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 670px;
+    margin: 0 auto;
+}
+
+
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+.p1
+{   background-image: url('images/bg3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding-bottom: 47px;
+}
+.p2
+{   background-image: url('images/bg8.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.topbar
+{
+  height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    z-index: 2;
+    margin-top: 0px;
+}
+.topbar img
+{
+  height: 70px;
+  width: 300px;
+
+}
+.links a
+{
+    text-decoration: none;
+    padding-right: 45px;
+    padding-left: 45px; 
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+ }
+.links
+{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'montserrat';
+    padding-bottom: 0px;
+    z-index: 2;
+    opacity: 0.5;
+    margin-top: 30px;
+}
+.links a:hover 
+{
+    padding-right: 45px;
+    padding-left: 45px; 
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: grey;
+    color: black;
+}
+
+#steps 
+{
+  text-align: center;
+  font-size: 2vw
+}
+.top
+    {
+        background-image: url(images/meme.jpg);
+
+    }
+    #content,#roverchallengeseries
+    {
+      padding-top: 40px;
+    }
+    #content>div,#roverchallengeseries>div
+    {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #roverchallengeseries>div>div
+    {
+/*      margin: 0px 100px;  */
+    }
+
+    .paratext
+    {
+    text-align: justify;
+    font-size: 18px;
+    margin-left:100px;
+    margin-right: 100px;
+    color: #34495E;
+    /*color: white;*/
+    /*border-color: white;*/
+    padding: 10px;
+    z-index: 1;
+    font-family: 'montserrat';
+      border-radius: 10px;
+    }
+
+    .paratext a
+    {
+      text-decoration: none;
+      color: #34495E;
+      font-weight: 700;
+    }
+
+    .button
+    {
+        background-color: #AB2540;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 30px auto;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        box-shadow: 1px 1px #000000;
+    }
+    .button:hover
+    {
+        background-color: #D74764;
+        transition: 0.2s ease-in;
+    }
+
+/* ////// */
+/* SUBSCRIBPTION */ 
+/* ////// */
+
+    #subscription>div
+    {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #subscription p
+    {
+      margin: 20px auto;      
+      font-family: 'Montserrat';
+    }
+    #subscription form
+    {
+      text-align: center;
+    }
+    #subscription input[type='email']
+    { width: 180px;
+      margin: 10px;
+      border: 0px;
+      border-bottom: 1px solid #ccc;
+      outline: none;
+    }
+  #subscription input[type='email']:focus
+    {
+      font-family: 'Open Sans', sans-serif;
+      outline: none;
+      border-color: #000;
+      outline-offset: 0px;
+    }
+    
+    #subscription input[type='submit']
+    {margin: 10px;
+      padding: 7px 16px;
+      font-size: 12px; 
+      background-color:  #1d8873;
+
+    }
+
+    #subscription input[type='submit']:hover
+    {
+background-color: #25ab90;
+
+
+    }
+
+
+/* ////// */
+/* SUBSCRIBPTION ENDS */ 
+/* ////// */
+
+
+/* ////// */
+/* FOOTER */ 
+/* ////// */
+
+
+    .footer
+    {
+      background-color: #aaa;
+      text-align: center; 
+      margin-top: 40px;
+    }
+
+    #footerwrapper
+    {
+      margin: 0px auto;
+      padding-top: 30px;
+      width: 90%;
+    }
+    #footerwrapper > div
+    {
+      margin: 10px auto;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    }
+    #footerwrapper >div >div
+    {   color: #eee;
+      display: inline-block;
+    }
+    /* Can't understand why this is here. Remove the comments if there is an issue. If everything is working let it be
+/*    #footerwrapper > div> div>div
+    {
+      margin: 20px 0px;
+      
+    } */
+    #footerwrapper p
+    {
+      margin: 5px;
+      font-family: 'Open Sans';
+      font-size: 12px;
+      color: #000;
+    }
+
+
+    #organization>div
+    {
+      display: block;
+      width: 100%;
+    }
+    .large-logo
+    {
+width: 150px;
+    }
+    .small-logo
+    {
+width: 60px;
+    }
+    .medium-logo
+    {
+width: 100px;
+    }
+
+    #organization h4
+    {
+      margin: 5px;
+      font-family: 'Open Sans';
+      color: #000;
+    }
+    #organization>div>div
+    {
+      display: inline-block;
+      widows: 50%;
+      text-align: center;
+    }  
+
+    #supporters>div
+    {
+      margin:0px 15px;
+    }
+
+
+    /* ////// */
+    /* FOOTER ENDS */ 
+    /* ////// */
+
+    .sticky
+    {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+    }
+
+
+
+    #steps > div
+    {
+      margin: 20px auto;
+
+    }
+    #steps > div > div
+    {
+      width: 20%;
+      display: inline-block;
+    }
+
+    #sponsors
+    {
+      text-align: center;
+      padding: 40px 0px;
+      background-color: #373737; 
+      color:white;
+      background-color: #19344F;
+
+    }
+
+    #sponsors hr
+    {
+      margin: 40px auto;
+      width: 60px;
+      height: 5px;
+      background: #ccc;
+      border: #ccc;
+      
+    }
+    #sponsorpara
+    {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 18px;
+      font-family: 'montserrat';
+      padding: 10px;
+    }
+   
+
+    #sponsors img
+    {
+      height: 200px;
+      width: 200px;
+    }
+    #countdates
+    {
+color: white;
+font-size: 20px;
+width: 80%;
+position: relative;
+margin-top: 50px;
+margin-left: 30px;
+padding-top: 50px;
+padding-left: 80px; 
+margin-bottom: -50px;
+font-family: 'montserrat';
+    }
+
+
+
+
+    #gototop
+    {
+      position: fixed;
+      right: 40px;
+      bottom: 40px;
+      width: 60px;
+      background: #cdcd33;
+      height: 60px;
+ }
+    .arrow
+    {
+opacity: 0;
+      transition: 0.3s all ease-in;
+    
+    }
+    .showarrow
+    {
+      transition: 0.3s all ease-in;
+     opacity: 1; 
+    }
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 992px)
+{
+
+h2
+{
+  font-size: 32px;
+}
+.top
+{
+height: 300px;
+}
+#bar
+{
+  height: 60px;
+}
+#menubar
+{
+  width: 700px;
+}
+#logoimage img
+{
+  width: 70px;
+  height: 60px;
+}
+
+#menubar a
+{
+  margin: 20px 10px; 
+  font-size: 16px;
+}
+.paratext
+{
+ margin: 0;
+  font-size: 16px;
+}
+#sponsorspara
+{
+  font-size: 16px;
+}
+#sponsors hr
+{
+margin: 20px auto; 
+}
+    #sponsors img
+    {
+      height: 160px;
+      width: 160px;
+    }
+#footerwrapper
+{
+  width: auto;
+
+}
+#footerwrapper>div:nth-child(1)
+{
+width: 30%;
+}
+#footwrapper>div:nth-child(2)
+{
+  width: 25%;
+}
+
+    .large-logo
+    {
+width: 130px;
+    }
+    .small-logo
+    {
+width: 40px;
+    }
+    .medium-logo
+    {
+width: 80px;
+    }
+    #organization
+    {
+      padding: 20px 0px;
+    }
+    #organization>div>div
+    {
+      display: block;
+    }
+    #countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+
+@media screen and (max-width: 768px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+.top
+{
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-color: #181849;
+}
+    #footerwrapper >div >div
+    {   color: #eee;
+      display: block;
+      text-align: center;
+    }
+#footerwrapper > div
+    {
+      display: block;
+      width: auto;
+    }
+  #footerwrapper
+    {
+        height: 1400px;
+
+    }
+    #contact
+    {
+    position: static;
+    width: auto;
+    display: block;
+        font-size: 15px;
+        text-align: center;
+    }
+    #contact img
+    {
+        width: 50px;
+        height: 50px;
+    }
+    #contact #number p
+    {
+        font-size: 15px;
+    }
+    #email
+    {
+    position: static;
+    text-align: center;
+    margin-bottom: 30%;
+    }
+    #email p
+    {
+      font-size: 15px;
+      text-align: center;
+    }
+    #number
+    {
+      position: static;
+      text-align: center;
+      margin-bottom: 30%;
+    }
+    #contact #email p
+    {
+        font-size: 15px;
+    }
+    #fb
+    {
+    position: static;
+    width: auto;
+    display: block;
+    }
+    #organization
+    {
+    position: static;
+    width: auto;
+    display: block;
+    text-align: center;
+    }
+    #organizers
+    {
+      position: static;
+      text-align: center;
+    }
+    #organizers img
+    {
+        width: 200px;
+    }
+    #supporters>div
+    {
+      margin: 0px;
+      padding: 0px;
+    }
+    #supporters
+    {
+      position: static;
+      text-align: center;
+    }
+    #supporters h4
+    {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #supporters img
+    {
+        width: 150px;
+        padding: 0px;
+        text-align: center;
+    }
+    #supporters #msl
+    {
+        width: 150px;
+        margin-bottom: 20px;
+        position: static; 
+    }
+    #supporters #mahi
+    {
+        width: 160px;
+        margin-bottom: 20px; 
+    }
+
+}
+@media screen and (max-width: 680px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+iframe
+{
+  width: 200px;
+}
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+
+
+@media screen and (max-width: 650px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+.top
+{
+  height: 220px;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+iframe
+{
+  width: 200px;
+}
+#organizers img
+{
+  width: 50%
+}
+#supporters img
+{
+  width: 50%
+}
+#footerwrapper > div p
+{
+  font-size: 10px;
+}
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+
+@media screen and (min-width: 601px) {
+  #sponsorpara {
+    font-size: 18px;
+  }
+  #loader {
+    display: block;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+ #sponsorpara {
+    font-size: 12px;
+  }
+  #loader {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 550px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+
+#organizers img
+{
+  width: 50%
+}
+#supporters img
+{
+  width: 50%
+}
+#footerwrapper > div p
+{
+  font-size: 10px;
+}
+#countdates
+{
+  font-size: 20px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+@media screen and (max-width: 480px)
+{
+#menubar
+{
+  display: block;
+height: 60px;
+width: auto;
+}
+#menubar a
+{
+  display: none;
+}
+#menubar a:nth-child(1)
+{
+  display: block;
+}
+#menubar a:nth-child(7)
+{
+  float: right;
+  display: block;
+}
+.top
+{
+  height: 200px;
+  background-position: -2.2px 30px;
+}
+
+#buttonimage img
+{
+  width: 30px;
+  height: 30px;
+}
+#sidebar
+{
+  display: block;
+}
+#sponsors img 
+{
+  width: 100px;
+  height: 100px;
+}
+
+#gototop
+{
+  display: none;
+}  
+
+#footerwrapper > div
+{
+  width: 32%;
+}
+iframe
+{
+  width: 125px;
+  left: 20px;
+}
+#organizers img
+{
+  width: 100%
+}
+#supporters img
+{
+  width: 50%
+}
+#footerwrapper > div p
+{
+  font-size: 9px;
+}
+#countdates
+{
+  font-size: 15px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+}
+/*pop for the screen*/
+#website {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+/*page content after loader
+#website {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 5s;
+  animation-name: animatebottom;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}*/
