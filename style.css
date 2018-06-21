@@ -54,7 +54,7 @@ font-family: 'montserrat';
 
 #menubar
 {
-    color: #34495E; 
+    color: #34495E;
     opacity: 1;
     width: 900px;
     font-family: 'montserrat';
@@ -106,7 +106,7 @@ margin: 0px;
 {  color: #ccc;
   margin: 2px;
   font-family: 'Montserrat';
-  text-decoration: none;  
+  text-decoration: none;
   display: block;
   text-align: center;
 }
@@ -118,12 +118,12 @@ margin: 0px;
 
 .slideout
 {
-  max-height: 300px; 
-  transition: 0.3s all ease-in; 
+  max-height: 300px;
+  transition: 0.3s all ease-in;
 }
 .slidein
 {
-  max-height: 0px; 
+  max-height: 0px;
   transition: 0.3s all ease-in;
 }
 
@@ -136,17 +136,17 @@ margin: 0px;
   #content>div
   {
     width: 80%;
-    
+
   }
 
 /*faq page*/
 
 .topfaq
-{   
+{
     margin-top: 0px;
     font-family: 'montserrat', sans-serif;
     font-size: 25px;
-    margin-left: 70px;   
+    margin-left: 70px;
 }
 .faqcont1
 {
@@ -186,8 +186,8 @@ vertical-align: middle;
 .map
 {
     display: inline-block;
-    
-    margin-left: 10%; 
+
+    margin-left: 10%;
 }
 .faqhead h1
 {
@@ -264,7 +264,7 @@ vertical-align: middle;
 }
 .one p
 {
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     text-align: justify;
     color: #D8D99D;
@@ -300,7 +300,7 @@ vertical-align: middle;
 }
 .two p
 {
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     text-align: justify;
     color: #D8D99D;
@@ -356,7 +356,7 @@ vertical-align: middle;
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     width: 80%;
-    margin: 10px auto
+    margin: center auto;
   }
 #note p
 {
@@ -398,14 +398,14 @@ vertical-align: middle;
     color: #0CE874;
     font-size: 30px;
 }
-i 
+i
 {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
 }
-.right 
+.right
 {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
@@ -475,12 +475,10 @@ i
   }
 #note p{
     width: 80%;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 #abt p{
     width: 100%;
-    ;
-    transform:translate(-10px,0px);
 }
 .link--arrowed{
     width: 80%;
@@ -515,6 +513,7 @@ height: 220px;
     font-size: 30px;
   }
   .but
+
   {
     transform:translate(10px,-20px);
   }
@@ -529,10 +528,11 @@ height: 220px;
     transform:translate(-20px,0px);
   }
   .centered-container{
-    width: 400px;    
+    width: 400px;
     text-align: left;
+    font-size: 18px;
     margin-left: 10px;
-     transform: translate(-80px,-10px);
+     transform: translate(-150px,-10px);
   }
   #abt p{
     margin-left: 12%;
@@ -554,9 +554,9 @@ height: 220px;
     margin-left: 55px;
   }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   .ruleshead{
-    height: 200px;
+    height: 200px !important;
   }
   .resourcesimg2 img{
     width: 50%;
@@ -574,13 +574,14 @@ height: 220px;
 }
 .imagesa{
             display: flex;
-           
+            text-align: center;
+
 
         }
         .imagesa > div{
             flex:1;
 
-           
+
         }
         @media screen and (max-width: 600px){
             .imagesa{
@@ -592,24 +593,29 @@ height: 220px;
             }
         }
 
-        </style>
 
 
 
+#resultsimg img {
+  width:auto;
+  text-align: center;
+  margin-left: 200px;
+}
+@media screen and (max-width:601px) {
+  #resultsimg img {
 
-        <style type="text/css">
-         @media screen and (min-width: 768px) {
-            #resultsimg img
-            {
-                width: 500px;
-                width: 90% !important;
-            }
-         }
-                  @media screen and (min-width: 601px) {
+    text-align: left !important;
+    margin-left: 0px !important;
+  }
+
+}
+
+
+  @media screen and (min-width: 601px) {
   .images img {
    width:  360px;
     display: inline-block;
-    display: flex !important;  
+    display: flex !important;
   }
   .images div{
     flex:1 !important;
@@ -658,7 +664,7 @@ height: 220px;
   }
   li{
     width: 100%;
-    margin-left:-80px; 
+    margin-left:-80px;
     text-align: left;
   }
 }
@@ -666,9 +672,16 @@ height: 220px;
 {
   display: flex;
   flex-direction: row;
-  background: blue; /* choose color */
+  background: #264662; /* choose color */
 justify-content: space-around;
 padding: 30px;
+flex-wrap: wrap;
+
+}
+@media screen and (max-width:600px) {
+  #benifits{
+    flex-direction: column;
+  }
 
 }
 .benifit
@@ -689,23 +702,23 @@ padding: 30px;
   text-align: center;
   font-size: 20px;
 }
- 
+
 
 #down
-{ 
+{
     margin-left: 100px;
     margin: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
-.centered-container 
+.centered-container
 {
-  display: -webkit-inline-box;
+  /*display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-flex;*/
 }
 
-.link 
+.link
 {
     color: #0CE874;
   cursor: pointer;
@@ -721,7 +734,7 @@ padding: 30px;
   line-height: 2rem;
 
 }
-.link--arrowed .arrow-icon 
+.link--arrowed .arrow-icon
 {
   position: relative;
   top: -1px;
@@ -733,7 +746,7 @@ padding: 30px;
   transform: rotate(90deg);
 }
 
-.link--arrowed .arrow-icon--circle 
+.link--arrowed .arrow-icon--circle
 {
   -webkit-transition: stroke-dashoffset .3s ease;
   transition: stroke-dashoffset .3s ease;
@@ -741,14 +754,14 @@ padding: 30px;
   stroke-dashoffset: 95;
 }
 
-.link--arrowed:hover .arrow-icon 
+.link--arrowed:hover .arrow-icon
 {
   -webkit-transform: translate3d(5px, 0, 0);
           transform: translate3d(5px, 0, 0);
           transform: rotate(90deg);
 }
 
-.link--arrowed:hover .arrow-icon--circle 
+.link--arrowed:hover .arrow-icon--circle
 {
   stroke-dashoffset: 0;
 }
@@ -760,7 +773,6 @@ padding: 30px;
     width: 80%;
   }
 }
-          <style type="text/css">
 @media screen and (max-width: 480px){
 .faqhead{
 height: 200px;
@@ -793,7 +805,7 @@ height: 220px;
 @media screen and (max-width: 600px) {
   #inconsins{
     margin-left:20%;
-    
+
   }
 }
 
@@ -826,7 +838,7 @@ height: 220px;
     border-width: 2px;
     border-color: gray;
 }
-.im1 
+.im1
 {
   position: relative;
   width: 700px;
@@ -834,7 +846,7 @@ height: 220px;
   max-width: 300px;
   padding: 55px;
 }
-.im2 
+.im2
 {
   position: relative;
   width: 700px;
@@ -842,7 +854,7 @@ height: 220px;
   max-width: 300px;
    padding: 55px;
 }
-.im3 
+.im3
 {
   position: relative;
   display: inline-block;
@@ -852,11 +864,11 @@ height: 220px;
 }
 
 .overlay {
-  position: relative; 
-  bottom: 70px; 
+  position: relative;
+  bottom: 70px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1; 
+  color: #f1f1f1;
   width: 340px;
   transition: .5s ease;
   opacity:0;
@@ -871,11 +883,11 @@ height: 220px;
  {
   opacity: 1;
 }
-.im2:hover .overlay 
+.im2:hover .overlay
 {
   opacity: 1;
 }
-.im3:hover .overlay 
+.im3:hover .overlay
 {
   opacity: 1;
 }
@@ -909,7 +921,7 @@ height: 220px;
   position: relative;
   top: 35px;
 }
-.rest table 
+.rest table
 {
     border-collapse: collapse;
     width: 80%;
@@ -917,7 +929,7 @@ height: 220px;
     margin: 100px;
 }
 
-.rest th, td 
+.rest th, td
 {
     text-align: center;
     padding: 2px;
@@ -927,7 +939,7 @@ height: 220px;
 {
   background-color: #f2f2f2
 }
-.rest th 
+.rest th
 {
     background-color: #00A0EE;
     color: white;
@@ -963,7 +975,7 @@ height: 220px;
     .footer
     {
       background-color: #aaa;
-      text-align: center; 
+      text-align: center;
       margin-top: 40px;
     }
 
@@ -988,7 +1000,7 @@ height: 220px;
 /*    #footerwrapper > div> div>div
     {
       margin: 20px 0px;
-      
+
     } */
     #footerwrapper p
     {
@@ -1028,7 +1040,7 @@ width: 100px;
       display: inline-block;
       widows: 50%;
       text-align: center;
-    }  
+    }
 
     #supporters>div
     {
@@ -1063,7 +1075,7 @@ height: 300px;
 
 #menubar a
 {
-  margin: 20px 10px; 
+  margin: 20px 10px;
   font-size: 16px;
 }
 
@@ -1078,7 +1090,7 @@ height: 300px;
 }
 #sponsors hr
 {
-margin: 20px auto; 
+margin: 20px auto;
 }
     #sponsors img
     {
@@ -1159,7 +1171,7 @@ width: auto;
 {
   display: block;
 }
-#sponsors img 
+#sponsors img
 {
   width: 100px;
   height: 100px;
@@ -1168,7 +1180,7 @@ width: auto;
 #gototop
 {
   display: none;
-}  
+}
 
 #footerwrapper > div
 {
@@ -1288,12 +1300,12 @@ width: auto;
     {
         width: 150px;
         margin-bottom: 20px;
-        position: static; 
+        position: static;
     }
     #supporters #mahi
     {
         width: 160px;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 680px)
@@ -1327,7 +1339,7 @@ width: auto;
 {
   display: block;
 }
-#sponsors img 
+#sponsors img
 {
   width: 100px;
   height: 100px;
@@ -1336,7 +1348,7 @@ width: auto;
 #gototop
 {
   display: none;
-}  
+}
 
 #footerwrapper > div
 {
@@ -1389,7 +1401,7 @@ width: auto;
 {
   display: block;
 }
-#sponsors img 
+#sponsors img
 {
   width: 100px;
   height: 100px;
@@ -1398,7 +1410,7 @@ width: auto;
 #gototop
 {
   display: none;
-}  
+}
 
 #footerwrapper > div
 {
@@ -1459,7 +1471,7 @@ width: auto;
 {
   display: block;
 }
-#sponsors img 
+#sponsors img
 {
   width: 100px;
   height: 100px;
@@ -1468,7 +1480,7 @@ width: auto;
 #gototop
 {
   display: none;
-}  
+}
 
 #footerwrapper > div
 {
@@ -1529,7 +1541,7 @@ width: auto;
 {
   display: block;
 }
-#sponsors img 
+#sponsors img
 {
   width: 100px;
   height: 100px;
@@ -1538,7 +1550,7 @@ width: auto;
 #gototop
 {
   display: none;
-}  
+}
 
 #footerwrapper > div
 {
@@ -1574,12 +1586,12 @@ width: auto;
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
+  from { bottom:-100px; opacity:0 }
   to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
 .resourcesimg1
@@ -1640,12 +1652,14 @@ width: auto;
 @media screen and (max-width: 600px) {
   .top{
     font-size: 30px;
+    background-size: cover;
+
   }
 }
 #icons
 {
   display: inline-block;
-  position: relative; 
+  position: relative;
 }
 #icons > img
 {
@@ -1756,6 +1770,3 @@ width: auto;
       left: 0px;
       right: 0px;
     }
-
-
-
